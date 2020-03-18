@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Trebuchet, Helvetica, sans-serif;
+    background: white url(../imagens/bg.png);
+    margin: 15px;
+}
+#container {
+    background: #ede9cc;
+}
+#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+#area-logo{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: url(../imagens/topo-imagem-principal2.png) no-repeat;
+    top: 0;
+    left: 0;
+    min-width: 100px;
+}
+#area-menu{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    top: 0;
+    right: 0;
+}
